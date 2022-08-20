@@ -61,7 +61,7 @@ button{
   align-items: center;
 }
 
-h6{
+.another_button{
   visibility: hidden;
 
 }
@@ -265,127 +265,8 @@ color: rgba(255, 255, 255, 0.6);
 
 /*index*/
 
-.bg{
-  background: var(--hard-gray);
-}
-
-.index_bisnes{
 
 
-font-size: calc(1.36);
-line-height: calc(1.36);
-text-align: center;
-
-text-transform: uppercase;
-color: var(--white);
-}
-
-.index_btn{
-
-  
-  font-size: calc(1.8);
-  line-height: calc(1.8);
-  display: flex;
-  align-items: center;
-  text-align: center;
- 
-  color: var(--white);
-
-  cursor: pointer;
-
-  
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 430px;
-  
-  background: var(--blue);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-
-
-
-.index_hav_one{
-
-  width: 400px;
-  height: 42px;
-  
-
-
-
-
-font-size: calc(2.6);
-line-height: calc(2.6);
-text-align: center;
-
-color: var(--black);
-}
-
-.index_hav_two{
-
-width: 366px;
-height: 42px;
-
-
-
-font-size: calc(2.6);
-line-height: calc(2.6);
-text-align: center;
-
-
-color: var(--black);
-}
-
-.index_details{
-
-
-font-size: calc(1.14);
-line-height: calc(1.14);
-
-text-transform: uppercase;
-color: var(--black);
-text-transform: uppercase;
-}
-
-.index_description{
-
-
-font-size: calc(1.14);
-line-height: calc(1.14);
-
-
-
-
-color: var(--gray);
-}
-
-.index_name{
-
-
-font-size: calc(1.18);
-line-height: calc(1.18);
-text-align: center;
-
-color: var(--black);
-}
-
-.index_responsibilities{
-
-
-font-size: calc(1.18);
-line-height: calc(1.18);
-text-align: center;
-
-color: var(--gray);
-}
-.our_features{
-  visibility: hidden;
-}
-
-.index_team{
-  background: var(--light-gray);
-}
 
 /*Ховери*/
 
