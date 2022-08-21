@@ -561,7 +561,9 @@ color: var(--black);
                 clip-path: inset(50%);
                 margin: -1px;}
  
-
+                .index_backgound_white{
+                  background: var(--white);
+                }
 /*Ховери*/
 
   
