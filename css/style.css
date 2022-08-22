@@ -22,9 +22,7 @@ body{
   font-family:'Roboto',sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  letter-spacing: 0.02em;
-  letter-spacing: 0.06em;
-  
+
 
 
 
@@ -61,13 +59,22 @@ button{
   align-items: center;
 }
 
-.another_button{
-  visibility: hidden;
+.visually-hidden{
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 
 }
 
 .logo_link{
-  font-family: 'Raleway';
+  font-family: 'Raleway',sans-serif;
   font-weight: 700;
   letter-spacing: 0.03em;
 font-size:26px ;
@@ -77,7 +84,7 @@ color: var(--black);
 }
 
 .logo-header{
-  font-family: 'Raleway';
+  font-family: 'Raleway',sans-serif;
   font-weight: 700;
   letter-spacing: 0.03em;
 font-size:26px ;
@@ -210,17 +217,10 @@ border-radius: 4px;
 }
 
 
-.footer_container{
-position: absolute;
 
-
-
-
-background:var(--hard-gray);
-}
 
 .footer_studio{
-  font-family: 'Raleway';
+  font-family: 'Raleway',sans-serif;
   font-weight: 700;
   
 font-size:26px ;
@@ -230,7 +230,7 @@ color: var(--white);
 }
 
 .logo_footer{
-  font-family: 'Raleway';
+  font-family: 'Raleway',sans-serif;
   font-weight: 700;
   
 font-size:26px ;
@@ -272,7 +272,7 @@ color: rgba(255, 255, 255, 0.6);
 /*index*/
 
 .logo_link{
-  font-family: 'Raleway';
+  font-family: 'Raleway',sans-serif;
   font-weight: 700;
   letter-spacing: 0.03em;
 font-size:26px ;
@@ -283,7 +283,7 @@ color: var(--black);
  
  .logo-header{
  
-   font-family: raleway;
+   font-family: 'Raleway',sans-serif;
    font-weight: 700;
  font-size: 26px;
  line-height:1.19;
@@ -419,7 +419,7 @@ color: var(--black);
  .index_details{
  
    font-weight: 700;
- font-size: 14;
+ font-size: 14px;
  line-height:1.14;
  letter-spacing: 0.03em;
  
@@ -520,7 +520,7 @@ color: var(--black);
  
          .logo_footer{
            
-           font-family: 'Raleway';
+           font-family: 'Raleway',sans-serif;
            font-weight: 700;
            font-size: 26px;
            line-height:1.19;
@@ -530,7 +530,7 @@ color: var(--black);
  
          .footer_studio{
            
-           font-family: 'Raleway';
+           font-family: 'Raleway',sans-serif;
            font-weight: 700;
            font-size: 26px;
            line-height:1.19;
@@ -539,9 +539,7 @@ color: var(--black);
            }
  
            .footer_container{
-             position: absolute;
-             width: 1600px;
-             height: 252px;
+
              
              
              
@@ -567,6 +565,12 @@ color: var(--black);
 /*Ховери*/
 
   
+
+.index_btn:hover, .index_btn:focus{
+  background-color: var(--blue);
+  color: var(--white);
+}
+
 
 
 .about_studi:hover, .about_studi:focus{
